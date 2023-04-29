@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+   height: 100%;
+   width: 100%;
+   overflow-y: hidden;
+    
+}
+
+button{
+    height: 2rem;
+    width: 9rem;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    align-items: center;
+  
+}
+.container{
+    height: 70%;
+    
+}
+.content{
+    max-width:35vw;
+    
+}
+
+.content > p {
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'inter';
+}
+
+.content > div{
+    text-align:left;
+
+}
+
+.image-body{
+    height: 400px;
+    width: 350px;
+    padding-top: 40px;
+  
+}
+
+h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align:left;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-style: 12px;
+
+}
+
+h3{
+    font-size: 20px;
+    text-align: left;
+    margin: 25px 0px;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-size: 17px;
+}
+
+h6{
+    font-size: 12px;
+    
+    margin-top: 30px;
+    margin-bottom: 60px;
+    color: aliceblue;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    font-style: normal;
+    margin-left: 20px;
+}
+.left-eyebrow{
+    position: absolute;
+    left: 72%;
+    top: 16.9%;
+   
+  
+}
+.mooch{
+    display: inline-flex;
+    position: absolute;
+    top: 24.6%;
+    left: 73.15%;
+    
+}
+.right-eyebrow{
+    position:absolute;
+    left: 75.1%;
+    top: 16.9%;
+    
+   
+}
+.left-eye{
+    position: absolute;
+    left: 72.7%;
+    top: 18.9%;
+   
+
+}
+.right-eye{
+    position: absolute;
+    left: 75.5%;
+    top: 18.9%;
+   
+
+}
+.nose{
+    position: absolute;
+    top: 18.5%;
+    left: 73.9%;
+}
+.lips{
+    position: absolute;
+    top: 26%;
+    left: 73.4%;
+}
+.upper-body{
+    display: flex;
+    background:  #FFCD9E;
+    justify-content: space-evenly;
+    row-gap: 15px;
+    padding-top: 2px;
+    
+}
+
+input{
+    height: 2rem;
+    width: 12rem;
+    border: 2px solid black;
+    text-align: center;
+}
+footer{
+    background: #282828;
+    display: flex;
+    justify-content: space-around;
+    height: 40%;
+    position: relative;
+    font-family:  'Konkhmer Sleokchher', cursive;
+    font-size: normal;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+    color: white;
+    line-height: 26px;
+    
+   
+}
+
+.right-footer{
+    margin: 40px 0px;
+    position: relative ;
+    text-align: right;
+    
+}
+
+.right-footer > p{
+    color:white;
+    margin: 30px;
+    position: absolute;
+    right: -15%;
+   
+}
+
+.left-footer{
+    margin: 40px 0px;
+   text-align: left;
+}
+
+i{
+    color: #FFCD9E;
+    margin: 5px;
+    text-align: right;
+    
+   
+}
+
+#linkedin{
+    border-radius: 5%;
+    border: 1px solid #FFCD9E;
+    padding: 2px;
+   
+}
+
+
